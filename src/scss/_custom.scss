@@ -1,0 +1,14 @@
+.custom {
+}
+
+body {
+    background-color: rosybrown;
+
+    @include sm-block() {
+        background-color: red;
+    }
+
+    @include xs-block() {
+        background-color: blue;
+    }
+}
