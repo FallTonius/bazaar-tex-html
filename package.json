@@ -78,10 +78,9 @@
     "lint-staged": "^10.5.4",
     "prettier": "^2.4.1",
     "stylelint": "^13.10.0",
-    "stylelint-config-rational-order": "^0.1.2",
-    "stylelint-config-standard": "^20.0.0",
+    "stylelint-config-prettier": "^9.0.3",
     "stylelint-order": "^4.1.0",
-    "stylelint-scss": "^3.19.0",
+    "stylelint-selector-bem-pattern": "^2.1.1",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0"
   },
@@ -89,6 +88,7 @@
     "focus-visible": "^5.2.0",
     "normalize.css": "^8.0.1",
     "smart-grid": "^2.1.2",
-    "swiper": "^7.0.8"
+    "swiper": "^7.0.8",
+    "vanilla-lazyload": "^17.5.0"
   }
 }

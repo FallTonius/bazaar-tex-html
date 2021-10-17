@@ -14,7 +14,7 @@ const server = (callback) => {
                 },
             },
         ],
-        proxy: 'gulp-start-theme-wp.loc',
+        proxy: 'bazaar-text.loc',
         notify: false,
         browser: 'Firefox',
     });
