@@ -4,6 +4,12 @@
     outline: none;
 }
 
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
 html {
     @include xs-block() {
         height: 100%;
@@ -81,13 +87,12 @@ label {
 } //.main
 
 .container {
-    @include container;
-
-    @include xs-block() {
-        &.xs-no-offset {
-            padding: 0;
-        }
-    }
+    max-width: 1440px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 } //.container
 
 [class$='--column'] {

@@ -1,0 +1,24 @@
+.city {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: roboto-300, sans-serif;
+    font-size: 13px;
+
+    &__text {
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+    &__link {
+        position: relative;
+        margin-top: 3px;
+        border-bottom: 1px dashed #fff;
+        color: #fff;
+        line-height: 1;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+} // .city

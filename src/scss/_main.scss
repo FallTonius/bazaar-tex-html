@@ -1,0 +1,28 @@
+.conditions {
+    line-height: 30px;
+}
+
+.conditions__list {
+    display: flex;
+    align-items: center;
+}
+
+.conditions__item {
+    display: flex;
+    align-items: center;
+
+    & + .conditions__item {
+        margin-left: 30px;
+    }
+}
+
+.conditions__link {
+    color: #fff;
+    font-family: roboto-300, sans-serif;
+    font-size: 13px;
+}
+
+.conditions__link:hover {
+    color: #fff;
+    text-decoration: underline;
+}

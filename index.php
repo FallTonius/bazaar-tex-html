@@ -25,6 +25,11 @@
 
 <?php 
     require_once 'layouts/header.php';
+
+	?>
+		<main class="main home" style="padding-top: 200px;"></main>
+	<?php
+
     require_once 'layouts/footer.php';
 ?>
     

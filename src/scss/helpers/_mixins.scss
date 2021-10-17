@@ -57,11 +57,19 @@
 }
 
 //transform: translateY
+@mixin trfY($num) {
+    transform: translateY($num);
+}
+
+//transform: translateX
+@mixin trfX($num) {
+    transform: translateX($num);
+}
+
 @mixin tY($var) {
     transform: translateY($var);
 }
 
-//transform: translateX
 @mixin tX($var) {
     transform: translateX($var);
 }
