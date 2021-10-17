@@ -1,0 +1,37 @@
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    &__item {
+        position: relative;
+        width: 32px;
+        height: 32px;
+        margin: 0;
+        border: 1px solid #aeaeae;
+        border-radius: 16px;
+
+        &:hover {
+            border-color: $color-accent;
+            background-color: $color-accent;
+
+            svg {
+                fill: #fff;
+            }
+        }
+
+        svg {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 16px;
+            height: 16px;
+            transform: translate(-50%, -50%);
+            fill: gray;
+        }
+
+        & + & {
+            margin-left: 15px;
+        }
+    }
+} // .social

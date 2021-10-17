@@ -1,7 +1,10 @@
 //Fonts
 
-//Font-Family ZonaPro
-@include font(ZonaPro-300, ZonaPro, ZonaPro-Light);
-@include font(ZonaPro-400, ZonaPro, ZonaPro-Regular);
-@include font(ZonaPro-500, ZonaPro, ZonaPro-SemiBold);
-@include font(ZonaPro-600, ZonaPro, ZonaPro-Bold);
+//Font-Family roboto
+@include font(roboto-600c, roboto, robotocondensedbold);
+@include font(roboto-600, roboto, robotobold);
+@include font(roboto-500, roboto, robotomedium);
+@include font(roboto-400, roboto, robotoregular);
+@include font(roboto-400c, roboto, robotocondensedregular);
+@include font(roboto-300, roboto, robotolight);
+@include font(roboto-300c, roboto, robotocondensedlight);

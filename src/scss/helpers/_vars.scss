@@ -1,8 +1,8 @@
 //FONT
-$f: ZonaPro-400, sans-serif;
-$f-light: ZonaPro-300, sans-serif;
-$f-SemiBold: ZonaPro-500, sans-serif;
-$f-bold: ZonaPro-600, sans-serif;
+$f: roboto-400, sans-serif;
+$f-light: roboto-300, sans-serif;
+$f-medium: roboto-500, sans-serif;
+$f-bold: roboto-600, sans-serif;
 
 $base-font-size: 16px;
 $base-font-family: $f;
@@ -44,7 +44,7 @@ $gray--lightest: #dee3e7;
 
 //TEXT COLORS
 $color-text--darkest: $gray--darkest;
-$color-text: #222;
+$color-text: #565656;
 $color-text-white: #fff;
 $color-text--light: #84a8d9;
 $color-text--lighten: $gray--lighten;

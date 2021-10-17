@@ -88,6 +88,7 @@
     "focus-visible": "^5.2.0",
     "normalize.css": "^8.0.1",
     "smart-grid": "^2.1.2",
+    "svg4everybody": "^2.1.9",
     "swiper": "^7.0.8",
     "vanilla-lazyload": "^17.5.0"
   }

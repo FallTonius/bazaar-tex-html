@@ -7,15 +7,18 @@
 				<div class="footer-item__content">
 					<ul class="footer-item__list">
 						<li class="footer-item__el">
+							<span class="footer-item__icon"><svg><use xlink:href="assets/images/sprites/sprite-mono.svg#icon--footer-phone"/></svg></span>
 							<a href="tel:88007078630" class="footer-item__link phone">
 								8 800 707-86-30
 								<span class="phone__desc">звонок бесплатный</span>
 							</a>
 						</li>
 						<li class="footer-item__el">
+							<span class="footer-item__icon"><svg><use xlink:href="assets/images/sprites/sprite-mono.svg#icon--footer-mail"/></svg></span>
 							<a href="mailto:info@yandex.ru" class="footer-item__link" itemprop="email">info@yandex.ru</a>
 						</li>
 						<li class="footer-item__el">
+							<span class="footer-item__icon"><svg><use xlink:href="assets/images/sprites/sprite-mono.svg#icon--footer-pin"/></svg></span>
 							г.Москва, ул.Чехова, 55
 						</li>
 					</ul>
@@ -81,6 +84,15 @@
 					</ul>
 
 					<div class="footer__social social">
+						<a class="social__item" href="">
+							<svg><use xlink:href="assets/images/sprites/sprite-mono.svg#icon--social-vk"/></svg>
+						</a>
+						<a class="social__item" href="">
+							<svg><use xlink:href="assets/images/sprites/sprite-mono.svg#icon--social-ok"/></svg>
+						</a>
+						<a class="social__item" href="">
+							<svg><use xlink:href="assets/images/sprites/sprite-mono.svg#icon--social-instagram"/></svg>
+						</a>
 					</div>
 
 				</div>
