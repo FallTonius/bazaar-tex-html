@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<meta name="keywords" content="">
 	<meta name="description" content="">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
