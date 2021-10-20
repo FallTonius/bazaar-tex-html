@@ -269,7 +269,7 @@
                         <div class="user-nav__icon"><svg><use xlink:href="assets/images/sprites/sprite-mono.svg#icon--user-login"/></svg></div>
                         <div class="user-nav__text">Вход</div>
                     </a>
-                    <div class="user-nav__item user-nav__item--search">
+                    <div class="user-nav__item user-nav__item--search js-mobile-search--show">
                         <div class="user-nav__icon"><svg><use xlink:href="assets/images/sprites/sprite-mono.svg#icon--search"/></svg></div>
                         <div class="user-nav__text">Поиск</div>
                     </div>
