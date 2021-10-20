@@ -347,7 +347,9 @@
     transform: translateX(-50%);
 }
 
-.search__result .load_gif img {
+.search__result .load_gif svg {
     position: relative;
     left: -10px;
+    width: inherit;
+    height: inherit;
 }

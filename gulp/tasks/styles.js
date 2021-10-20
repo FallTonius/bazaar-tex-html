@@ -1,5 +1,9 @@
 import gulp from 'gulp';
-import sass from 'gulp-sass';
+
+import dartSass from 'sass';
+import gulpSass from 'gulp-sass';
+const sass = gulpSass(dartSass); // https://github.com/dlmanning/gulp-sass
+
 import plumber from 'gulp-plumber';
 import autoprefixer from 'gulp-autoprefixer';
 import gcmq from 'gulp-group-css-media-queries';
