@@ -30,7 +30,7 @@
 				<div class="footer-item__content">
 					<ul class="footer-item__list">
 						<li class="footer-item__el">
-							<a href="#" class="footer-item__link">Ткани</a>
+							<a href="/catalog.php" class="footer-item__link">Ткани</a>
 						</li>
 						<li class="footer-item__el">
 							<a href="#" class="footer-item__link">Швейная фурнитура</a>
