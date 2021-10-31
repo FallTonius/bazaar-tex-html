@@ -1,33 +1,41 @@
-@import 'helpers/all';
-@import 'generated/all';
-@import 'base/all';
+// @import 'helpers/all';
+// @import 'generated/all';
+// @import 'base/all';
 
 //Libs
 
-@import 'swiper/swiper-bundle.min';
+// @import 'swiper/swiper-bundle.min';
 // @import '_lib/_jquery.fancybox';
 
 //Customization libs
-@import 'custom';
+// @import 'custom';
 
 //Import site components
 // @import 'components/breadcrumbs';
-@import 'components/buttons';
+// @import 'components/buttons';
 // @import 'components/input';
 // @import 'components/pagination';
 
 //Import main styles
-@import 'main';
+// @import 'main';
 
 //Import site layouts
-@import 'layout/city';
-@import 'layout/footer';
-@import 'layout/header';
-@import 'layout/nav';
-@import 'layout/products';
-@import 'layout/search';
-@import 'layout/social';
+// @import 'layout/city';
+// @import 'layout/footer';
+// @import 'layout/header';
+// @import 'layout/nav';
+// @import 'layout/products';
+// @import 'layout/search';
+// @import 'layout/social';
 
 //Import pages
-@import 'pages/catalog';
+// @import 'pages/catalog';
 // @import 'pages/page';
+
+body {
+    margin: 0;
+
+    background-color: gray;
+
+    display: flex;
+}
