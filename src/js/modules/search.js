@@ -35,7 +35,7 @@ $(document).on('click', '.search__cat_list_item', function () {
 
 $('.js-search-input').on('keyup', function () {
     let search = $('.js-search-input').val();
-    if (search.length === 0) {
+    if (search.length > 0) {
         $('.search__form_close').hide();
         $('.js-search-result').hide();
     }
@@ -59,7 +59,7 @@ $('.js-search-input').on('keyup', function () {
         $('.js-search-result-error').hide();
         $('.search__result__terms_item').show();
         $('.search__result__product').show();
-        $('.search__result__wrap_footer').show();
+        // $('.search__result__wrap_footer').show();
     } else {
         $('.search__result__terms_item').hide();
         $('.search__result__product').hide();

@@ -1,3 +1,39 @@
+main {
+    min-height: 2500px;
+}
+
+.page-banner {
+    margin: 10px 0;
+    font-family: $f;
+    text-transform: uppercase;
+
+    &__link {
+        display: block;
+        padding: 9px 15px;
+        font-size: 15px;
+
+        &:hover {
+            color: $color-text;
+        }
+    } //.page-banner__link
+
+    &__content {
+        // @include flexCenter;
+    } //.page-banner__content
+
+    strong {
+        font-family: $f-bold;
+    }
+
+    p {
+        margin-bottom: 0;
+
+        & + p {
+            margin-top: 15px;
+        }
+    }
+} //.page-banner
+
 .conditions {
     line-height: 30px;
 }
@@ -25,4 +61,61 @@
 .conditions__link:hover {
     color: #fff;
     text-decoration: underline;
+}
+
+.badge {
+    display: inline-table;
+    padding: 2px 5px;
+    border-radius: 3px;
+
+    &__wrap {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        color: #fff;
+        font-size: 11px;
+        line-height: 13px;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+
+        @include xs-block() {
+            font-size: 10px;
+            text-transform: none;
+        }
+    }
+
+    &--sale {
+        background-color: #ff8272;
+    }
+
+    &--hit {
+        background-color: #2386dc;
+    }
+
+    &--new {
+        background: red;
+    }
+
+    &--availability {
+        background: #70c92a;
+    }
+
+    &--availability.little {
+        background: #f8af22;
+    }
+
+    &--availability.none {
+        background: #666;
+        color: #fff;
+    }
+
+    &--availability.soon {
+        background: #a3467d;
+        color: #fff;
+    }
+
+    & + .badge {
+        margin-top: 3px;
+    }
 }
