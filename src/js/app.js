@@ -8,4 +8,6 @@ documentReady(() => {
     svg4everybody();
     lazyImages();
     search();
+
+    console.log();
 });

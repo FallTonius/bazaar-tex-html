@@ -6,12 +6,12 @@
         "dev": "gulp watch",
         "build:dev": "gulp build",
         "build:prod": "gulp build --prod",
-        "precommit": "lint-staged",
         "eslint": "eslint --format=node_modules/eslint-formatter-pretty src/js/",
         "eslint-fix": "npm run eslint -- --fix",
         "style:lint": "stylelint src/scss/**/*.scss --config ./.stylelintrc",
         "style:fix": "stylelint src/scss/**/*.scss --fix --config ./.stylelintrc",
-        "prettier": "prettier --write src/**/*.js"
+        "prettier": "prettier --write src/**/*.js",
+        "prepare": "husky install"
     },
     "lint-staged": {
         "src/js/**/*.{js, jsx}": [
@@ -27,7 +27,7 @@
     },
     "husky": {
         "hooks": {
-            "pre-commit": "lint-staged"
+            "precommit": "lint-staged"
         }
     },
     "keywords": [
