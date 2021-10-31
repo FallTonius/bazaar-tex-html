@@ -72,14 +72,14 @@ main {
         position: absolute;
         top: 15px;
         left: 15px;
+        display: flex;
+        flex-direction: column;
         color: #fff;
         font-size: 11px;
         line-height: 13px;
         text-transform: uppercase;
-        display: flex;
-        flex-direction: column;
 
-        @include xs-block() {
+        @include xs-block {
             font-size: 10px;
             text-transform: none;
         }

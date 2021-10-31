@@ -25,7 +25,7 @@
         transition: all 0.35s ease;
         background-color: #f6f6f6;
 
-        @include xs-block() {
+        @include xs-block {
             height: 50px;
         }
 
@@ -49,7 +49,7 @@
     &__nav {
         display: none;
 
-        @include xs-block() {
+        @include xs-block {
             display: block;
         }
     }
@@ -75,7 +75,7 @@
         background-color: #565656;
         color: #fff;
 
-        @include md-block() {
+        @include md-block {
             display: none;
         }
 
@@ -91,7 +91,7 @@
     display: inline-block;
     width: 190px;
 
-    @include xs-block() {
+    @include xs-block {
         width: 150px;
     }
 }
@@ -121,7 +121,7 @@
 
 .hamburger span::after,
 .hamburger span::before {
-    content: ' ';
+    content: " ";
     position: absolute;
     top: 9px;
     left: 0;
@@ -139,11 +139,11 @@
 }
 
 .hamburger.is-active span::before {
-    top: 0px;
-    transform: rotate(45deg) translate(0px);
+    top: 0;
+    transform: rotate(45deg) translate(0);
 }
 
 .hamburger.is-active span::after {
-    top: 0px;
-    transform: rotate(-45deg) translate(0px, 0px);
+    top: 0;
+    transform: rotate(-45deg) translate(0, 0);
 }

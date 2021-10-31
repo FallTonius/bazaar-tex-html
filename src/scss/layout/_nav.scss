@@ -3,7 +3,7 @@
     align-items: center;
     margin-left: auto;
 
-    @include xs-block() {
+    @include xs-block {
         justify-content: space-between;
     }
 
@@ -15,6 +15,7 @@
         cursor: pointer;
 
         &:hover {
+
             & .user-nav__icon svg {
                 fill: $color-accent;
                 color: $color-accent;
@@ -28,13 +29,13 @@
         &--search {
             display: none;
 
-            @include md-block() {
+            @include md-block {
                 display: flex;
             }
         }
 
         &--login {
-            @include md-block() {
+            @include md-block {
                 display: none;
             }
         }
@@ -42,7 +43,7 @@
         & + .user-nav__item {
             margin-left: 30px;
 
-            @include xs-block() {
+            @include xs-block {
                 margin-left: 25px;
             }
         }
@@ -70,7 +71,7 @@
             padding: 0 4px;
             border-radius: 8px;
             background: $color-accent;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgb(0 0 0 / 10%);
             color: #fff;
             font-size: 12px;
             font-weight: 500;
@@ -97,7 +98,7 @@
         color: #565656;
         font-size: 12px;
 
-        @include md-block() {
+        @include md-block {
             display: none;
         }
     }
@@ -109,7 +110,7 @@
     border-bottom: 1px solid #e1e1e1;
     background-color: #fff;
 
-    @include xs-block() {
+    @include xs-block {
         display: none;
     }
 
@@ -117,16 +118,16 @@
     }
 
     &__list {
-        height: 95px;
-        transition: height 0.5s linear;
-        max-width: 1440px;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 15px;
-        padding-right: 15px;
         display: flex;
         justify-content: space-between;
+        width: 100%;
+        max-width: 1440px;
+        height: 95px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+        transition: height 0.5s linear;
 
         .is-fixed & {
             height: 36px;
@@ -134,22 +135,27 @@
     }
 
     &__item {
-        justify-content: center;
-        min-width: 125px;
         display: flex;
         align-items: center;
+        justify-content: center;
+        min-width: 125px;
 
         .is-fixed & {
             padding-top: 25px;
         }
 
         &--dropdown {
+
             &:hover {
+
                 .nav-main {
+
                     &__link {
+
                         &::before {
                             display: block;
-                            @include xs-block() {
+
+                            @include xs-block {
                                 display: none;
                             }
                         }
@@ -161,26 +167,26 @@
 
     &__link {
         position: relative;
+        display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         width: 100%;
         height: 100%;
-        display: flex;
-        flex-direction: column;
         color: $color-text;
 
         &::before {
-            content: '';
+            content: "";
+            position: absolute;
             bottom: 0;
+            left: 50%;
             display: none;
             width: 0;
             height: 0;
-            border-color: transparent transparent #f6f6f6;
-            border-style: solid;
-            border-width: 0 10px 10px;
-            position: absolute;
-            left: 50%;
             transform: translateX(-50%);
+            border-width: 0 10px 10px;
+            border-style: solid;
+            border-color: transparent transparent #f6f6f6;
         }
     }
 
@@ -192,8 +198,8 @@
         fill: $color-text;
 
         .is-fixed & {
-            opacity: 0;
             visibility: hidden;
+            opacity: 0%;
         }
     }
 
@@ -230,15 +236,15 @@
     background-color: #f6f6f6;
 
     &__items {
-        height: auto;
-        max-width: 1440px;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 15px;
-        padding-right: 15px;
         display: flex;
         flex-direction: column;
+        width: 100%;
+        max-width: 1440px;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 15px;
+        padding-left: 15px;
     }
 
     &__columns {
@@ -267,7 +273,7 @@
         vertical-align: top;
 
         &:not(.nav-dropdown__item:first-child)::before {
-            content: '';
+            content: "";
             position: absolute;
             top: 0;
             left: -10px;
