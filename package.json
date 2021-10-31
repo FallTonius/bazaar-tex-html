@@ -15,12 +15,12 @@
     },
     "lint-staged": {
         "src/js/**/*.{js, jsx}": [
-            "node_modules/.bin/eslint",
+            "node_modules/.bin/eslint --max-warnings=0",
             "prettier --write",
             "git add"
         ],
         "src/scss/**/*.scss": [
-            "stylelint --fix --config ./.stylelintrc.json --max-warnings=0",
+            "stylelint --fix --config ./.stylelintrc.json",
             "prettier --write",
             "git add"
         ]
