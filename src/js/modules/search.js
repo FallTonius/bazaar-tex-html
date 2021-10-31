@@ -43,7 +43,7 @@ $('.js-search-input').on('keyup', function () {
         return false;
     }
 
-    console.log();
+    console.log(search);
 
     $('.js-search-result-error ins').text(search);
 
