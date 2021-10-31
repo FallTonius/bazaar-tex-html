@@ -25,10 +25,7 @@ const sassBuild = () =>
         .pipe(
             sass({
                 includePaths: ['./node_modules'],
-            }).on('error', function (error) {
-                sass.logError; //I think we should also print in the console
-                return error();
-            })
+            }).on('error', sass.logError)
         )
         .pipe(gulpif(config.isProd, gcmq()))
         .pipe(gulpif(config.isProd, autoprefixer()))

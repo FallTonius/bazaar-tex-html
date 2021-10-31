@@ -1,5 +1,10 @@
 {
-    "plugins": ["stylelint-order", "stylelint-selector-bem-pattern"],
+    "plugins": [
+        "stylelint-scss",
+        "stylelint-order",
+        "stylelint-selector-bem-pattern"
+    ],
+    "extends": ["stylelint-config-standard-scss"],
     "rules": {
         "property-case": "lower",
         "selector-type-case": "lower",
