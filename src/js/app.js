@@ -9,5 +9,5 @@ documentReady(() => {
     lazyImages();
     search();
 
-    console.log();
+    console.log(1);
 });
