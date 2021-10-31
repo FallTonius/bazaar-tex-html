@@ -42,7 +42,9 @@ $('.js-search-input').on('keyup', function () {
     if (search.length < 3) {
         return false;
     }
-    // console.log(search);
+
+    console.log(search);
+
     $('.js-search-result-error ins').text(search);
 
     $('.search__form_close').show();

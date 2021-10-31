@@ -9,7 +9,9 @@
         "es6": true
     },
     "rules": {
-        "jsx-quotes": [1, "prefer-double"]
+        "jsx-quotes": [1, "prefer-double"],
+        "no-console": 2,
+        "no-debugger": 2
     },
     "plugins": ["prettier"]
 }

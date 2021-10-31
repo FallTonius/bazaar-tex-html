@@ -340,6 +340,7 @@
 }
 
 @media screen and (max-width: 480px) {
+
     .btn-animate {
         padding: 0;
     }
@@ -381,6 +382,7 @@
 }
 
 @media screen and (max-width: 480px) {
+
     .button-box {
         flex-wrap: wrap;
         justify-content: center;
@@ -411,6 +413,7 @@
 }
 
 @media (max-width: 480px) {
+
     .button-box .button-animate {
         width: 80%;
     }
@@ -421,6 +424,7 @@
 }
 
 @media (max-width: 480px) {
+
     .button-box .button-animate + .button-animate {
         margin-top: 15px;
         margin-left: 0;

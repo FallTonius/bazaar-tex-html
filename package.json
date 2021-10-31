@@ -9,8 +9,8 @@
         "precommit": "lint-staged",
         "eslint": "eslint --format=node_modules/eslint-formatter-pretty src/js/",
         "eslint-fix": "npm run eslint -- --fix",
-        "style:lint": "stylelint src/scss/**/*.scss --config ./.stylelintrc",
-        "style:fix": "stylelint src/scss/**/*.scss --fix --config ./.stylelintrc",
+        "style:lint": "stylelint src/scss/**/*.scss --config ./.stylelintrc.json",
+        "style:fix": "stylelint src/scss/**/*.scss --fix --config ./.stylelintrc.json",
         "prettier": "prettier --write src/**/*.js"
     },
     "lint-staged": {
@@ -20,7 +20,7 @@
             "git add"
         ],
         "src/scss/**/*.scss": [
-            "stylelint --fix --config ./.stylelintrc",
+            "stylelint --fix --config ./.stylelintrc.json",
             "prettier --write",
             "git add"
         ]

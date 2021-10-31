@@ -41,7 +41,7 @@
     &__phone {
         margin-left: auto;
         color: #fff;
-        font-family: roboto-300, sans-serif;
+        font-family: $f-light;
         font-size: 14px;
         line-height: 30px;
     }
@@ -85,7 +85,7 @@
     }
 }
 
-//.header
+// .header
 
 .logo {
     display: inline-block;
@@ -121,7 +121,7 @@
 
 .hamburger span::after,
 .hamburger span::before {
-    content: " ";
+    content: '';
     position: absolute;
     top: 9px;
     left: 0;

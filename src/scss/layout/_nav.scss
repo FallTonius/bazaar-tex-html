@@ -15,6 +15,9 @@
         cursor: pointer;
 
         &:hover {
+            @include md-block {
+                // Empty
+            }
 
             & .user-nav__icon svg {
                 fill: $color-accent;
@@ -114,9 +117,6 @@
         display: none;
     }
 
-    &__inner {
-    }
-
     &__list {
         display: flex;
         justify-content: space-between;
@@ -144,25 +144,13 @@
             padding-top: 25px;
         }
 
-        &--dropdown {
+        &--dropdown:hover .nav-main__link ::before {
+            display: block;
 
-            &:hover {
-
-                .nav-main {
-
-                    &__link {
-
-                        &::before {
-                            display: block;
-
-                            @include xs-block {
-                                display: none;
-                            }
-                        }
-                    }
-                }
+            @include xs-block {
+                display: none;
             }
-        } //.nav-main__item--dropdown
+        } // .nav-main__item--dropdown
     }
 
     &__link {
@@ -176,7 +164,7 @@
         color: $color-text;
 
         &::before {
-            content: "";
+            content: '';
             position: absolute;
             bottom: 0;
             left: 50%;
@@ -262,7 +250,7 @@
     &__title {
         display: inline-block;
         margin-bottom: 5px;
-        font-family: roboto-600, sans-serif;
+        font-family: $f-bold;
         font-size: 14px;
     }
 
@@ -273,7 +261,7 @@
         vertical-align: top;
 
         &:not(.nav-dropdown__item:first-child)::before {
-            content: "";
+            content: '';
             position: absolute;
             top: 0;
             left: -10px;

@@ -6,6 +6,11 @@
     ],
     "extends": ["stylelint-config-standard-scss"],
     "rules": {
+        "scss/dollar-variable-pattern": null,
+        "scss/at-mixin-argumentless-call-parentheses": null,
+
+        "string-quotes": "single",
+        "no-empty-source": null,
         "property-case": "lower",
         "selector-type-case": "lower",
         "rule-empty-line-before": "always",
@@ -23,6 +28,8 @@
         "value-no-vendor-prefix": true,
         "at-rule-no-vendor-prefix": true,
         "selector-no-vendor-prefix": true,
+        "no-descending-specificity": null,
+        "selector-class-pattern": null,
 
         "function-url-quotes": "always",
         "comment-empty-line-before": "always",
