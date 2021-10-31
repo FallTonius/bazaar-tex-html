@@ -20,15 +20,10 @@
             "git add"
         ],
         "src/scss/**/*.scss": [
-            "stylelint --fix --config ./.stylelintrc.json",
+            "stylelint --fix --config ./.stylelintrc.json --max-warnings=0",
             "prettier --write",
             "git add"
         ]
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
     },
     "keywords": [
         "gulp",

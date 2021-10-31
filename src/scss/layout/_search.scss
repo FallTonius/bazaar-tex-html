@@ -1,9 +1,9 @@
 .search {
     padding: 2px;
     display: flex;
+    width: 645px;
     align-items: center;
     border-radius: 4px;
-    width: 645px;
     background-color: $color-accent;
 
     @include md-block() {
