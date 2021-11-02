@@ -31,6 +31,8 @@
         "no-descending-specificity": null,
         "selector-class-pattern": null,
 
+        "color-function-notation": "legacy",
+        "alpha-value-notation": "number",
         "function-url-quotes": "always",
         "comment-empty-line-before": "always",
         "selector-pseudo-element-colon-notation": "double",

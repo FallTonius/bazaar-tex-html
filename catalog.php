@@ -49,33 +49,160 @@
 									<div class="catalog-filter__title"></div>
 								</div>
 								<div class="catalog-filter__body">
-									<div class="catalog-filter__item">
-										<div class="catalog-filter__subtitle"><span>Цвет</span></div>
+									<div class="catalog-filter__item catalog-filter__item_scroll">
+										<div class="catalog-filter__subtitle open"><span>Цвет</span></div>
 										<div class="catalog-filter__content">
 											<div class="catalog-filter__subitem">
-												<label class="checkbox checkbox--transform js-checkbox">
-													<input type="checkbox">
-													<span class="checkbox__box"></span>
-													<span class="checkbox__title">Белоснежный</span>
-												</label>
-												<span data-filter-color="#FFFFFF" class="catalog-filter__color" style="background-color: rgb(255, 255, 255);"></span>
+												<div class="checkbox">
+													<input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo">
+													<label for="color-1"><span>Белоснежный</span></label>
+													<span data-filter-color="#FFFFFF" class="catalog-filter__color" style="background-color: rgb(255, 255, 255);"></span>
+												</div>
 											</div>
 											<div class="catalog-filter__subitem">
-												<label class="checkbox checkbox--transform js-checkbox">
-													<input type="checkbox">
-													<span class="checkbox__box"></span>
-													<span class="checkbox__title">Белоснежный</span>
-												</label>
-												<span data-filter-color="#FFFFFF" class="catalog-filter__color" style="background-color: rgb(255, 255, 255);"></span>
+												<div class="checkbox">
+													<input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo">
+													<label for="color-1"><span>Молочный</span></label>
+													<span data-filter-color="#FFFBF2" class="catalog-filter__color" style="background-color: rgb(255, 251, 242);"></span>
+												</div>
 											</div>
 											<div class="catalog-filter__subitem">
-												<label class="checkbox checkbox--transform js-checkbox">
-													<input type="checkbox">
-													<span class="checkbox__box"></span>
-													<span class="checkbox__title">Белоснежный</span>
-												</label>
-												<span data-filter-color="#FFFFFF" class="catalog-filter__color" style="background-color: rgb(255, 255, 255);"></span>
+												<div class="checkbox">
+													<input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo">
+													<label for="color-1"><span>Белоснежный</span></label>
+													<span data-filter-color="#FFFFFF" class="catalog-filter__color" style="background-color: rgb(255, 255, 255);"></span>
+												</div>
 											</div>
+											<div class="catalog-filter__subitem">
+												<div class="checkbox">
+													<input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo">
+													<label for="color-1"><span>Белоснежный</span></label>
+													<span data-filter-color="#FFFFFF" class="catalog-filter__color" style="background-color: rgb(255, 255, 255);"></span>
+												</div>
+											</div>
+											<div class="catalog-filter__subitem">
+												<div class="checkbox">
+													<input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo">
+													<label for="color-1"><span>Белоснежный</span></label>
+													<span data-filter-color="#FFFFFF" class="catalog-filter__color" style="background-color: rgb(255, 255, 255);"></span>
+												</div>
+											</div>
+											<div class="catalog-filter__subitem">
+												<div class="checkbox">
+													<input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo">
+													<label for="color-1"><span>Белоснежный</span></label>
+													<span data-filter-color="#FFFFFF" class="catalog-filter__color" style="background-color: rgb(255, 255, 255);"></span>
+												</div>
+											</div>
+											<div class="catalog-filter__subitem">
+												<div class="checkbox">
+													<input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo">
+													<label for="color-1"><span>Белоснежный</span></label>
+													<span data-filter-color="#FFFFFF" class="catalog-filter__color" style="background-color: rgb(255, 255, 255);"></span>
+												</div>
+											</div>
+											<div class="catalog-filter__subitem">
+												<div class="checkbox">
+													<input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo">
+													<label for="color-1"><span>Белоснежный</span></label>
+													<span data-filter-color="#FFFFFF" class="catalog-filter__color" style="background-color: rgb(255, 255, 255);"></span>
+												</div>
+											</div>
+											<div class="catalog-filter__subitem">
+												<div class="checkbox">
+													<input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo">
+													<label for="color-1"><span>Белоснежный</span></label>
+													<span data-filter-color="#FFFFFF" class="catalog-filter__color" style="background-color: rgb(255, 255, 255);"></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog-filter__footer"><a class="catalog-filter__btn catalog-filter__btn--close js-catalog-filter--hide">Закрыть</a> <a href="javascript:void(0)" class="catalog-filter__btn catalog-filter__btn--aply js-catalog-filter--hide">Применить</a></div>
+							</div>
+							<div class="catalog-filter__cloth cloth">
+								<div>
+									<h3 class="h3 cloth__title">Тип ткани</h3>
+									<!---->
+									<div>
+										<div class="cloth__item">
+											<a href="/catalog/atlas" class="cloth__subtitle">
+												Атлас<span class="cloth__count"></span
+											></a>
+											<ul>
+												<li>
+													<a href="/catalog/atlas/atlas_dyupon" class="">
+														Атлас Дюпон
+													</a>
+												</li>
+												<li>
+													<a href="/catalog/atlas/matovyy_atlas" class="">
+														Матовый Атлас
+													</a>
+												</li>
+												<li>
+													<a href="/catalog/atlas/tonkiy_atlas" class="">
+														Тонкий Атлас
+													</a>
+												</li>
+												<li>
+													<a href="/catalog/atlas/streych_atlas" class="">
+														Стрейч- Атлас
+													</a>
+												</li>
+												<li>
+													<a href="/catalog/atlas/russkiy_streych_atlas" class="">
+														Русский Стрейч- Атлас
+													</a>
+												</li>
+												<li>
+													<a href="/catalog/atlas/atlas_v_goroshek" class="">
+														Атлас в Горошек
+													</a>
+												</li>
+												<li>
+													<a href="/catalog/atlas/atlas_ombre" class="">
+														Атлас Омбре
+													</a>
+												</li>
+												<li>
+													<a href="/catalog/atlas/amerikan_saten_laykra" class="">
+														Американ Сатен Лайкра
+													</a>
+												</li>
+												<li>
+													<a href="#" class="cloth__link">
+														Показать еще
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="cloth__item">
+											<a href="/catalog/barhat" class="cloth__subtitle">
+												Бархат<span class="cloth__count"></span
+											></a>
+											<ul>
+												<li>
+													<a href="/catalog/barhat/barhat_kresh" class="">
+														Бархат крэш
+													</a>
+												</li>
+												<li>
+													<a href="/catalog/barhat/barhat_premium" class="">
+														Бархат премиум
+													</a>
+												</li>
+												<li>
+													<a href="/catalog/barhat/barhat_s_printom" class="">
+														Бархат с принтом
+													</a>
+												</li>
+												<li>
+													<a href="/catalog/barhat/barhat_gladkiy" class="">
+														Бархат гладкий
+													</a>
+												</li>
+											</ul>
 										</div>
 									</div>
 								</div>
