@@ -30,11 +30,11 @@
 	?>
 		<main class="main catalog" style="padding-top: 210px;">
 			<div class="page-banner" style="background-color: #f8dcd2">
-					<a href="https://www.bazaar-tex.ru/catalog/trikotagh/futer_3h_nitka_s_nachesom" class="page-banner__link">
-							<div id="page-banner__content">
-									<p class="text-center">Новое Поступление Футера с Начесом</p>
-							</div>
-					</a>
+				<a href="https://www.bazaar-tex.ru/catalog/trikotagh/futer_3h_nitka_s_nachesom" class="page-banner__link">
+					<div id="page-banner__content">
+						<p class="text-center">Новое Поступление Футера с Начесом</p>
+					</div>
+				</a>
 			</div>
 			<div class="container">
 				<div class="catalog__title">
@@ -46,11 +46,80 @@
 						<div class="catalog-filter__inner">
 							<div class="catalog-filter__in">
 								<div class="catalog-filter__header">
-									<div class="catalog-filter__title"></div>
+									<div class="catalog-filter__title">Фильтр</div>
+									<button class="button button button--link">Сбросить</button>
 								</div>
 								<div class="catalog-filter__body">
+									<div
+										class="
+											catalog-filter__item
+											js-catalog-filter-item
+											accordeon__item
+											is-open
+											sm-only
+										"
+									>
+										<div class="catalog-filter__subtitle accordeon__title">Разделы</div>
+										<div class="catalog-filter__content accordeon__content js-scroll">
+											<div class="changer js-changer">
+												<ul class="changer__list">
+													<li class="changer__item is-checked">
+														<a href="#" class="changer__link">
+															Все <span class="changer__counter"></span>
+															<div class="changer__reset"><span></span></div
+														></a>
+													</li>
+													<li class="changer__item">
+														<a href="#" class="changer__link">
+															Еврофатин LUXE <span class="changer__counter">200</span>
+															<div class="changer__reset"></div
+														></a>
+													</li>
+													<li class="changer__item">
+														<a href="#" class="changer__link">
+															Еврофатин LIFE <span class="changer__counter">350</span>
+															<div class="changer__reset"></div
+														></a>
+													</li>
+													<li class="changer__item">
+														<a href="#" class="changer__link">
+															Стрейч-фатин <span class="changer__counter">150</span>
+															<div class="changer__reset"></div
+														></a>
+													</li>
+													<li class="changer__item">
+														<a href="#" class="changer__link">
+															Свадебный еврофатин
+															<span class="changer__counter">183</span>
+															<div class="changer__reset"></div
+														></a>
+													</li>
+													<li class="changer__item">
+														<a href="#" class="changer__link">
+															Еврофатин для вышевки
+															<span class="changer__counter">72</span>
+															<div class="changer__reset"></div
+														></a>
+													</li>
+													<li class="changer__item">
+														<a href="#" class="changer__link">
+															Фатин с бусинами
+															<span class="changer__counter">88</span>
+															<div class="changer__reset"></div
+														></a>
+													</li>
+													<li class="changer__item">
+														<a href="#" class="changer__link">
+															Фатин с Омбре <span class="changer__counter">12</span>
+															<div class="changer__reset"></div
+														></a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
 									<div class="catalog-filter__item catalog-filter__item_scroll">
-										<div class="catalog-filter__subtitle open"><span>Цвет</span></div>
+										<div class="catalog-filter__subtitle is-open"><span>Цвет</span></div>
 										<div class="catalog-filter__content">
 											<div class="catalog-filter__subitem">
 												<div class="checkbox">
@@ -117,8 +186,79 @@
 											</div>
 										</div>
 									</div>
+									<div class="catalog-filter__item catalog-filter__item_scroll">
+										<div class="catalog-filter__subtitle"><span>Цвет</span></div>
+										<div class="catalog-filter__content" style="display: none;">
+											<div class="catalog-filter__subitem">
+												<div class="checkbox">
+													<input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo">
+													<label for="color-1"><span>Белоснежный</span></label>
+													<span data-filter-color="#FFFFFF" class="catalog-filter__color" style="background-color: rgb(255, 255, 255);"></span>
+												</div>
+											</div>
+											<div class="catalog-filter__subitem">
+												<div class="checkbox">
+													<input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo">
+													<label for="color-1"><span>Молочный</span></label>
+													<span data-filter-color="#FFFBF2" class="catalog-filter__color" style="background-color: rgb(255, 251, 242);"></span>
+												</div>
+											</div>
+											<div class="catalog-filter__subitem">
+												<div class="checkbox">
+													<input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo">
+													<label for="color-1"><span>Белоснежный</span></label>
+													<span data-filter-color="#FFFFFF" class="catalog-filter__color" style="background-color: rgb(255, 255, 255);"></span>
+												</div>
+											</div>
+											<div class="catalog-filter__subitem">
+												<div class="checkbox">
+													<input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo">
+													<label for="color-1"><span>Белоснежный</span></label>
+													<span data-filter-color="#FFFFFF" class="catalog-filter__color" style="background-color: rgb(255, 255, 255);"></span>
+												</div>
+											</div>
+											<div class="catalog-filter__subitem">
+												<div class="checkbox">
+													<input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo">
+													<label for="color-1"><span>Белоснежный</span></label>
+													<span data-filter-color="#FFFFFF" class="catalog-filter__color" style="background-color: rgb(255, 255, 255);"></span>
+												</div>
+											</div>
+											<div class="catalog-filter__subitem">
+												<div class="checkbox">
+													<input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo">
+													<label for="color-1"><span>Белоснежный</span></label>
+													<span data-filter-color="#FFFFFF" class="catalog-filter__color" style="background-color: rgb(255, 255, 255);"></span>
+												</div>
+											</div>
+											<div class="catalog-filter__subitem">
+												<div class="checkbox">
+													<input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo">
+													<label for="color-1"><span>Белоснежный</span></label>
+													<span data-filter-color="#FFFFFF" class="catalog-filter__color" style="background-color: rgb(255, 255, 255);"></span>
+												</div>
+											</div>
+											<div class="catalog-filter__subitem">
+												<div class="checkbox">
+													<input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo">
+													<label for="color-1"><span>Белоснежный</span></label>
+													<span data-filter-color="#FFFFFF" class="catalog-filter__color" style="background-color: rgb(255, 255, 255);"></span>
+												</div>
+											</div>
+											<div class="catalog-filter__subitem">
+												<div class="checkbox">
+													<input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo">
+													<label for="color-1"><span>Белоснежный</span></label>
+													<span data-filter-color="#FFFFFF" class="catalog-filter__color" style="background-color: rgb(255, 255, 255);"></span>
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
-								<div class="catalog-filter__footer"><a class="catalog-filter__btn catalog-filter__btn--close js-catalog-filter--hide">Закрыть</a> <a href="javascript:void(0)" class="catalog-filter__btn catalog-filter__btn--aply js-catalog-filter--hide">Применить</a></div>
+								<div class="catalog-filter__footer">
+									<a class="catalog-filter__btn catalog-filter__btn--close js-catalog-filter--hide">Закрыть</a>
+									<a href="javascript:void(0)" class="catalog-filter__btn catalog-filter__btn--aply js-catalog-filter--hide">Применить</a>
+								</div>
 							</div>
 							<div class="catalog-filter__cloth cloth">
 								<div>
@@ -220,6 +360,90 @@
 									<option value="2">По убыванию цены</option>
 									<option value="3">В начале новинки</option>
 								</select>
+							</div>
+						</div>
+						<div class="catalog__changer sm-hide">
+							<div class="changer js-changer">
+								<span class="changer__title">Разделы:</span>
+								<ul class="changer__list">
+									<li class="changer__item">
+										<a
+											href="/catalog/atlas"
+											class="changer__link"
+										>
+											Все
+											<span class="changer__counter"></span>
+											<div class="changer__reset"></div
+										></a>
+									</li>
+									<li class="changer__item is-checked">
+										<a
+											href="/catalog/atlas/atlas_dyupon"
+											class="
+												changer__link
+											"
+										>
+											Атлас Дюпон
+											<span class="changer__counter">33</span>
+											<div class="changer__reset"><span></span></div
+										></a>
+									</li>
+									<li class="changer__item">
+										<a href="/catalog/atlas/matovyy_atlas" class="changer__link">
+											Матовый Атлас
+											<span class="changer__counter">23</span>
+											<div class="changer__reset"></div
+										></a>
+									</li>
+									<li class="changer__item">
+										<a href="/catalog/atlas/tonkiy_atlas" class="changer__link">
+											Тонкий Атлас
+											<span class="changer__counter">3</span>
+											<div class="changer__reset"></div
+										></a>
+									</li>
+									<li class="changer__item">
+										<a href="/catalog/atlas/streych_atlas" class="changer__link">
+											Стрейч- Атлас
+											<span class="changer__counter">34</span>
+											<div class="changer__reset"></div
+										></a>
+									</li>
+									<li class="changer__item">
+										<a
+											href="/catalog/atlas/russkiy_streych_atlas"
+											class="changer__link"
+										>
+											Русский Стрейч- Атлас
+											<span class="changer__counter">14</span>
+											<div class="changer__reset"></div
+										></a>
+									</li>
+									<li class="changer__item">
+										<a href="/catalog/atlas/atlas_v_goroshek" class="changer__link">
+											Атлас в Горошек
+											<span class="changer__counter">38</span>
+											<div class="changer__reset"></div
+										></a>
+									</li>
+									<li class="changer__item">
+										<a href="/catalog/atlas/atlas_ombre" class="changer__link">
+											Атлас Омбре
+											<span class="changer__counter">3</span>
+											<div class="changer__reset"></div
+										></a>
+									</li>
+									<li class="changer__item">
+										<a
+											href="/catalog/atlas/amerikan_saten_laykra"
+											class="changer__link"
+										>
+											Американ Сатен Лайкра
+											<span class="changer__counter">6</span>
+											<div class="changer__reset"></div
+										></a>
+									</li>
+								</ul>
 							</div>
 						</div>
 						<div class="products">

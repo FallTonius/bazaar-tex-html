@@ -33,7 +33,6 @@ const setViewportWidth = function () {
 };
 
 const mainDiv = document.querySelector('.main');
-const mainH2 = '';
 
 // Log the viewport width into the console
 const logWidth = function () {
