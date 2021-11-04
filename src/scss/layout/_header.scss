@@ -93,57 +93,6 @@
 
     @include xs-block {
         width: 150px;
+        margin-left: 35px;
     }
-}
-
-.hamburger {
-    display: flex;
-    align-items: center;
-    width: 28px;
-    height: 28px;
-    margin-right: 15px;
-}
-
-.hamburger span {
-    position: relative;
-    display: block;
-    transition: all 0.3s;
-}
-
-.hamburger span,
-.hamburger span::after,
-.hamburger span::before {
-    width: 100%;
-    height: 2px;
-    border-radius: 2px;
-    background-color: #565656;
-}
-
-.hamburger span::after,
-.hamburger span::before {
-    content: '';
-    position: absolute;
-    top: 9px;
-    left: 0;
-    backface-visibility: hidden;
-    backface-visibility: hidden;
-    transition: all 0.35s ease;
-}
-
-.hamburger span::after {
-    top: -9px;
-}
-
-.hamburger.is-active span {
-    background-color: transparent;
-}
-
-.hamburger.is-active span::before {
-    top: 0;
-    transform: rotate(45deg) translate(0);
-}
-
-.hamburger.is-active span::after {
-    top: 0;
-    transform: rotate(-45deg) translate(0, 0);
 }

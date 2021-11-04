@@ -8,7 +8,7 @@
     border: 0;
     border-radius: 2px;
     outline: none;
-    box-shadow: 0 2px 12px 0 rgb(0 0 0 / 20%);
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.2);
     color: #565656;
     font-family: $f-medium;
     font-size: 15px;
@@ -337,11 +337,8 @@
     overflow: hidden;
     line-height: 43px;
     text-align: center;
-}
 
-@media screen and (max-width: 480px) {
-
-    .btn-animate {
+    @include xs-block() {
         padding: 0;
     }
 }
@@ -379,11 +376,8 @@
     align-items: center;
     justify-content: space-between;
     text-align: center;
-}
 
-@media screen and (max-width: 480px) {
-
-    .button-box {
+    @include xs-block() {
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -410,22 +404,16 @@
 .button-box--center {
     display: flex;
     justify-content: center;
-}
 
-@media (max-width: 480px) {
-
-    .button-box .button-animate {
+    @include xs-block() {
         width: 80%;
     }
 }
 
 .button-box .button-animate + .button-animate {
     margin-left: 30px;
-}
 
-@media (max-width: 480px) {
-
-    .button-box .button-animate + .button-animate {
+    @include xs-block() {
         margin-top: 15px;
         margin-left: 0;
     }

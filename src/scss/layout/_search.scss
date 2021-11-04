@@ -1,8 +1,9 @@
 .search {
     display: flex;
     align-items: center;
-    width: 645px;
-    padding: 2px;
+    width: 100%;
+    max-width: 645px;
+    padding: 2px 2px 2px 3px;
     border-radius: 4px;
     background-color: $color-accent;
 
@@ -75,9 +76,9 @@
 
         &_select {
             position: relative;
-            height: 42px;
-            padding: 0 34px 0 18px;
-            border-radius: 3px 0 0 3px;
+            height: 40px;
+            padding: 0 35px 0 20px;
+            border-radius: 2px 0 0 2px;
             background: #f1f1f1;
             color: #808d9a;
             font-size: 12px;
@@ -110,10 +111,20 @@
             border-radius: 5px;
             background: #fff;
 
+            @include xs-block() {
+                left: 0;
+                width: 155px;
+            }
+
             &_item {
                 position: relative;
-                padding: 8px 15px;
+                padding: 10px 15px;
+                font-size: 14px;
                 cursor: pointer;
+
+                @include xs-block() {
+                    font-size: 12px;
+                }
 
                 &:first-child {
                     border-radius: 5px 5px 0 0;
@@ -157,7 +168,13 @@
         border: 0;
         background: transparent;
 
+        @include xs-block() {
+            width: 90px;
+        }
+
         svg {
+            width: 24px;
+            height: 24px;
             margin: 0 auto;
             fill: #fff;
         }
@@ -224,7 +241,7 @@
                     font-size: 14px;
 
                     .count {
-                        opacity: 50%;
+                        opacity: 0.5;
                     }
                 }
 
@@ -342,6 +359,11 @@
                     position: relative;
                     left: -10px;
                 }
+            }
+
+            svg {
+                width: 52px;
+                height: 52px;
             }
         }
     }
